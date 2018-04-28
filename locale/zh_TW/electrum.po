@@ -276,15 +276,15 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "在回報臭蟲之前，請先升級至最新版的 Electrum（最近發行版或 git HEAD），再將軟體版本號納入您的回報中。"
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
+msgid "SmartCash Address is None"
 msgstr "比特幣位址空白"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
 msgstr "應該收到款項的比特幣位址。請注意，每個支付請求都會用不同的比特幣位址。"
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "比特幣的交易動作一般來說並非免費。交易手續費是由資金的送出者支付。"
 
 #: gui/qt/network_dialog.py:288
@@ -609,7 +609,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum 無法產生交易資訊匯出。"
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
 msgstr "Electrum 著重於速度，執行時僅使用少量資源，並簡化比特幣的運用。您不需要經常執行備份，因為您的錢包可以根據您有辦法記憶或寫在紙上的祕密暗語還原。程式啟動時幾乎能立即反應，因為它所連結的是能處理比特幣系統最複雜部分的高效伺服器。\n"
 
 #: gui/qt/main_window.py:2003
@@ -718,7 +718,7 @@ msgid "Expired"
 msgstr "已過期"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
 msgstr "過期的請求必須手動從您的清單中刪除，才能釋放對應的比特幣位址。"
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
@@ -932,7 +932,7 @@ msgid "Invalid Amount"
 msgstr "無效的金額"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
+msgid "Invalid SmartCash Address"
 msgstr "無效的比特幣位址"
 
 #: gui/qt/main_window.py:1286
@@ -988,7 +988,7 @@ msgid "Lookup transaction"
 msgstr "查找交易"
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
 msgstr "在您請求比特幣發送到此錢包之前，請確認您擁有的種苗詞彙或私鑰。"
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
@@ -1257,7 +1257,7 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "請輸入種苗詞彙或主金鑰 (xpub 或 xprv)："
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
 msgstr "請輸入種苗詞彙、主金鑰、比特幣位址列表、或私鑰列表"
 
 #: gui/qt/installwizard.py:348
@@ -1742,7 +1742,7 @@ msgid "This may result in higher transactions fees."
 msgstr "這可能導致更高的交易手續費。"
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend SmartCashs with it."
 msgstr "這代表您無法花費錢包裡的比特幣。"
 
 #: gui/qt/main_window.py:861
@@ -1972,7 +1972,7 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr "您正在使用非決定型錢包，所以無法建立新位址。"
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
 msgstr "您可以輸入比特幣位址、您聯絡人清單（會提示名稱補完的清單）的標籤、或是別名（類似電子郵件的位址，可以轉送到某一比特幣位址）"
 
 #: gui/qt/main_window.py:1608

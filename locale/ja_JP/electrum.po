@@ -276,15 +276,15 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "バグを報告する前に、最新版のElectrum(最新リリースもしくはgit HEAD版) を実行しているか確認して下さい。報告の際は、Electrumのバージョン番号も記入して下さい。"
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
+msgid "SmartCash Address is None"
 msgstr "ビットコインアドレスがありません"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
 msgstr "送金したビットコインを受け取るアドレスです。支払いリクエストではアドレスが毎回異なることに注意して下さい。"
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "一般的にビットコインの取引は無料ではありません。送信側に手数料がかかります。"
 
 #: gui/qt/network_dialog.py:288
@@ -609,8 +609,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "エクスポートできませんでした。"
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
-msgstr "Electrumの主眼はスピードと省リソースとBitcoinの取り扱いをシンプルにすることです。ウォレットファイルのバックアップを定期的に取る必要はありません。ウォレットは暗記したり紙に書きやすい英単語の列からいつでも復元できます。Bitcoinネットワークの複雑な部分は高性能なサーバに任せてあるので、計算やデータの読み込み時間がなく、即座に起動できます。\n\n"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
+msgstr "Electrumの主眼はスピードと省リソースとSmartCashの取り扱いをシンプルにすることです。ウォレットファイルのバックアップを定期的に取る必要はありません。ウォレットは暗記したり紙に書きやすい英単語の列からいつでも復元できます。SmartCashネットワークの複雑な部分は高性能なサーバに任せてあるので、計算やデータの読み込み時間がなく、即座に起動できます。\n\n"
 
 #: gui/qt/main_window.py:2003
 msgid "Encrypt"
@@ -718,7 +718,7 @@ msgid "Expired"
 msgstr "期限切れ"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
 msgstr "請求に紐付けられたアドレスを開放するために、期限切れの請求は手動でリストから削除する必要があります。"
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
@@ -932,8 +932,8 @@ msgid "Invalid Amount"
 msgstr "金額が正しくありません"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
-msgstr "Bitcoinアドレスが正しくありません"
+msgid "Invalid SmartCash Address"
+msgstr "SmartCashアドレスが正しくありません"
 
 #: gui/qt/main_window.py:1286
 msgid "Invalid Lines found:"
@@ -988,7 +988,7 @@ msgid "Lookup transaction"
 msgstr "取引を参照"
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
 msgstr "このウォレットへのビットコインの送金を請求する場合は、あなたがシードや秘密鍵を持っているか確認して下さい。"
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
@@ -1257,7 +1257,7 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "シードまたはマスター鍵(xpubもしくはxprv) を入力して下さい:"
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
 msgstr "シード、または、マスター鍵、ビットコインアドレスのリスト、もしくは秘密鍵のリストを入力して下さい"
 
 #: gui/qt/installwizard.py:348
@@ -1413,7 +1413,7 @@ msgstr "入金アドレス"
 
 #: gui/qt/main_window.py:997
 msgid "Recipient of the funds."
-msgstr "Bitcoinの送信先のアドレスです。"
+msgstr "SmartCashの送信先のアドレスです。"
 
 #: gui/qt/installwizard.py:403
 msgid "Recovery successful"
@@ -1742,7 +1742,7 @@ msgid "This may result in higher transactions fees."
 msgstr "高額な送金手数料となるかもしれません"
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend SmartCashs with it."
 msgstr "このことは、このウォレットのビットコインを使用することが出来ないことを意味します。"
 
 #: gui/qt/main_window.py:861
@@ -1759,7 +1759,7 @@ msgstr "この取引の情報は保存されていません。本当に閉じて
 
 #: gui/qt/main_window.py:1345
 msgid "This transaction requires a higher fee, or it will not be propagated by the network"
-msgstr "手数料の設定が低すぎます。優先順位が低く、Bitcoinネットワーク上に伝播されないため、取引が承認されない恐れがあります。"
+msgstr "手数料の設定が低すぎます。優先順位が低く、SmartCashネットワーク上に伝播されないため、取引が承認されない恐れがあります。"
 
 #: gui/qt/main_window.py:1838
 msgid "This wallet has no seed"
@@ -1974,8 +1974,8 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr "現在非HDウォレットを使用しています。このウォレットは新しいアドレスを生成ません。"
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "入力形式には、Bitcoinアドレス、アドレス帳のラベル(候補が表示されます)、エイリアス(メールアドレスのような形式のBitcoinアドレス)が使えます。"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
+msgstr "入力形式には、SmartCashアドレス、アドレス帳のラベル(候補が表示されます)、エイリアス(メールアドレスのような形式のSmartCashアドレス)が使えます。"
 
 #: gui/qt/main_window.py:1608
 msgid "You may load a CSV file using the file icon."

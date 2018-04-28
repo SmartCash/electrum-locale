@@ -276,15 +276,15 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "버그를 보고 하기 전에 Electrum (최신 릴리스 또는 자식 머리)의 최신 버전으로 업그레이드 하 고 보고서에서 버전 번호를 포함 합니다."
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
+msgid "SmartCash Address is None"
 msgstr "비트 코인 주소는 없음입니다"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Bitcoin 주소 지불 받을 해야 합니다. 참고 각 지불 요청 다른 Bitcoin 주소를 사용 하 여."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
+msgstr "SmartCash 주소 지불 받을 해야 합니다. 참고 각 지불 요청 다른 SmartCash 주소를 사용 하 여."
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "비트 코인 거래는 일반적으로 무료로하지 않습니다. 트랜잭션 수수료는 자금의 보낸 사람이 지급됩니다."
 
 #: gui/qt/network_dialog.py:288
@@ -609,7 +609,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "일렉 트럼은 트랜잭션 수출을 생성 할 수 없습니다."
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
 msgstr "일렉트럼이 초점을 두고 있는 것은 리소스를 낮게 사용하고 비트코인을 단순화하는 일에 속도를 내는 것 입니다. 당신은 정기적으로 백업을 할 필요가 없는데요, 왜냐하면 당신의 지갑은 당신이 기억하거나 서면으로 작성한 암호로 회복될 수 있기 때문입니다. 비트 코인 시스템의 가장 복잡한 부분을 처리하는 고성능 서버와 함께 동작하기 때문에, 기동 시간은 즉각적입니다."
 
 #: gui/qt/main_window.py:2003
@@ -718,8 +718,8 @@ msgid "Expired"
 msgstr "기간만료"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "만료 된 요청은 해당 Bitcoin 주소를 자유롭게 귀하의 목록에서 수동으로 삭제 해야 합니다."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
+msgstr "만료 된 요청은 해당 SmartCash 주소를 자유롭게 귀하의 목록에서 수동으로 삭제 해야 합니다."
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
 msgid "Expires"
@@ -932,7 +932,7 @@ msgid "Invalid Amount"
 msgstr "잘못된 금액"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
+msgid "Invalid SmartCash Address"
 msgstr "잘못된 비트 코인 주소"
 
 #: gui/qt/main_window.py:1286
@@ -988,8 +988,8 @@ msgid "Lookup transaction"
 msgstr "조회 트랜잭션"
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "이 지갑에 게 Bitcoins를 요청 하기 전에 씨 구 또는 개인 키를 소유 다는 것을 확인 하십시오."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
+msgstr "이 지갑에 게 SmartCashs를 요청 하기 전에 씨 구 또는 개인 키를 소유 다는 것을 확인 하십시오."
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
 #: gui/kivy/uix/dialogs/installwizard.py:693
@@ -1257,7 +1257,7 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "씨 구 또는 마스터 키 (xpub 또는 xprv)을 입력 하십시오."
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
 msgstr "지갑 씨, 마스터 공개 키, 비트 코인 주소 목록 또는 개인 키의 목록을 입력하세요"
 
 #: gui/qt/installwizard.py:348
@@ -1668,7 +1668,7 @@ msgstr "지갑에 충분한 자금이없는 경우 금액은 빨간색으로 표
 
 #: gui/qt/main_window.py:780
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Bitcoin 주소는 절대 만료 되 고 항상이 electrum 지갑의 일부가 될 것입니다."
+msgstr "SmartCash 주소는 절대 만료 되 고 항상이 electrum 지갑의 일부가 될 것입니다."
 
 #: gui/qt/main_window.py:1009
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -1742,8 +1742,8 @@ msgid "This may result in higher transactions fees."
 msgstr "이 더 높은 거래 수수료 발생할 수 있습니다."
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "즉, 그걸로 Bitcoins를 보낼 수 없습니다."
+msgid "This means you will not be able to spend SmartCashs with it."
+msgstr "즉, 그걸로 SmartCashs를 보낼 수 없습니다."
 
 #: gui/qt/main_window.py:861
 msgid "This payment request will be signed."
@@ -1970,7 +1970,7 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr ""
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
 msgstr "당신은 비트 코인 주소, 연락처 목록 (완료 목록이 제시 될 것입니다)에서 레이블 또는 별명 (A 비트 코인 주소로 전달 이메일과 같은 주소)를 입력 할 수 있습니다"
 
 #: gui/qt/main_window.py:1608

@@ -276,16 +276,16 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr ""
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
+msgid "SmartCash Address is None"
 msgstr ""
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
 msgstr ""
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Bitcoin பரிவர்த்தனைகள் பொதுவாக இலவசமானவை அல்ல. ஒரு பரிவர்த்தனை கட்டணம் நிதி அனுப்புநர் மூலம் வழங்கப்படவேண்டும்."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "SmartCash பரிவர்த்தனைகள் பொதுவாக இலவசமானவை அல்ல. ஒரு பரிவர்த்தனை கட்டணம் நிதி அனுப்புநர் மூலம் வழங்கப்படவேண்டும்."
 
 #: gui/qt/network_dialog.py:288
 msgid "Blockchain"
@@ -609,7 +609,7 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr ""
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
 msgstr ""
 
 #: gui/qt/main_window.py:2003
@@ -718,7 +718,7 @@ msgid "Expired"
 msgstr ""
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
 msgstr ""
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
@@ -932,7 +932,7 @@ msgid "Invalid Amount"
 msgstr ""
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
+msgid "Invalid SmartCash Address"
 msgstr ""
 
 #: gui/qt/main_window.py:1286
@@ -988,7 +988,7 @@ msgid "Lookup transaction"
 msgstr ""
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
 msgstr ""
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
@@ -1257,7 +1257,7 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr ""
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
 msgstr ""
 
 #: gui/qt/installwizard.py:348
@@ -1739,7 +1739,7 @@ msgid "This may result in higher transactions fees."
 msgstr ""
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend SmartCashs with it."
 msgstr ""
 
 #: gui/qt/main_window.py:861
@@ -1967,7 +1967,7 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr ""
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
 msgstr ""
 
 #: gui/qt/main_window.py:1608

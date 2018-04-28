@@ -276,16 +276,16 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "Před nahlášením chyby aktualizujte na nejnovější verzi aplikace Electrum (poslední vydání nebo git HEAD), a poté informaci o verzi aplikace také vložte do hlášení."
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
-msgstr "Bitcoinová adresa neexistuje"
+msgid "SmartCash Address is None"
+msgstr "SmartCashová adresa neexistuje"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Bitcoinová adresa, na kterou má být zaslána platba. Všimněte si, že každá žádost o platbu používá jinou bitcoinovou adresu."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
+msgstr "SmartCashová adresa, na kterou má být zaslána platba. Všimněte si, že každá žádost o platbu používá jinou bitcoinovou adresu."
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Transakce Bitcoinů obecně nejsou bezplatné. Poplatek za transakci platí odesílatel financí."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transakce SmartCashů obecně nejsou bezplatné. Poplatek za transakci platí odesílatel financí."
 
 #: gui/qt/network_dialog.py:288
 msgid "Blockchain"
@@ -609,8 +609,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum nemohl vytvořit export transakce."
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
-msgstr "Electrum je zaměřeno na rychlost s nízkým využíváním zdrojů a zjednodušení Bitcoinu. Nemusíte dělat pravidelné zálohy, protože Vaše peněženka může být obnovena pomocí tajné fráze, kterou si můžete zapamatovat nebo zapsat na papír. Spouštění je okamžité, jelikož využívá spojení s vysoce výkonnými servery, které se starají o ty nejkomplikovanější procesy Bitcoin systému.\n\n"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
+msgstr "Electrum je zaměřeno na rychlost s nízkým využíváním zdrojů a zjednodušení SmartCashu. Nemusíte dělat pravidelné zálohy, protože Vaše peněženka může být obnovena pomocí tajné fráze, kterou si můžete zapamatovat nebo zapsat na papír. Spouštění je okamžité, jelikož využívá spojení s vysoce výkonnými servery, které se starají o ty nejkomplikovanější procesy SmartCash systému.\n\n"
 
 #: gui/qt/main_window.py:2003
 msgid "Encrypt"
@@ -718,8 +718,8 @@ msgid "Expired"
 msgstr "Expirované"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Vypršené požadavky je třeba ručně smazat ze seznamu, aby došlo k uvolnění odpovídajících Bitcoin adres."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
+msgstr "Vypršené požadavky je třeba ručně smazat ze seznamu, aby došlo k uvolnění odpovídajících SmartCash adres."
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
 msgid "Expires"
@@ -932,7 +932,7 @@ msgid "Invalid Amount"
 msgstr "Neplatná částka"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
+msgid "Invalid SmartCash Address"
 msgstr "Neplatná bitcoinová adresa"
 
 #: gui/qt/main_window.py:1286
@@ -988,8 +988,8 @@ msgid "Lookup transaction"
 msgstr "Vyhledat transakci"
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Ujistěte se, že vlastníte seed-semínko nebo soukromé klíče před tím, než si vyžádáte Bitcoiny na zaslání do této peněženky."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
+msgstr "Ujistěte se, že vlastníte seed-semínko nebo soukromé klíče před tím, než si vyžádáte SmartCashy na zaslání do této peněženky."
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
 #: gui/kivy/uix/dialogs/installwizard.py:693
@@ -1257,7 +1257,7 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "Prosím za dejte frázi seed-semínko nebo hlavní klíč (xpub or xprv):"
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
 msgstr "Prosím zadejte frázi seed-semínko, hlavní klíč, seznam Bicoinových adres nebo seznam soukromých klíčů"
 
 #: gui/qt/installwizard.py:348
@@ -1668,7 +1668,7 @@ msgstr "Zůstatek bude zobrazen červeně, pokud nebude dostatek prostředků v 
 
 #: gui/qt/main_window.py:780
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Bitcoinová adresa nikdy nevyprší a bude vždy součástí této electrum peněženky."
+msgstr "SmartCashová adresa nikdy nevyprší a bude vždy součástí této electrum peněženky."
 
 #: gui/qt/main_window.py:1009
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -1742,8 +1742,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Toto může způsobit navýšení poplatku za transakci."
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "To znamená, že s ní nebudete moct utratit Bitcoiny."
+msgid "This means you will not be able to spend SmartCashs with it."
+msgstr "To znamená, že s ní nebudete moct utratit SmartCashy."
 
 #: gui/qt/main_window.py:861
 msgid "This payment request will be signed."
@@ -1973,7 +1973,7 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr "Používáte nedeterministickou peněženku, která nemůže vytvářet nové adresy."
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
 msgstr "Můžete vložit bitcoinovou adresu, označení z vašeho adresáře (zobrazí se vám seznam návrhů) nebo alias (adresa podobná e-mailu, která přesměrovává na bitcoinovou adresu)."
 
 #: gui/qt/main_window.py:1608

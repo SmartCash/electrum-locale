@@ -276,16 +276,16 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "Trước khi báo cáo một lỗi, vui lòng nâng cấp lên phiên bản mới nhất của Electrum (bản ra mới nhất hoặc git HEAD), và ghi kèm số phiên bản trong bản báo cáo."
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
-msgstr "Chưa có địa chỉ Bitcoin"
+msgid "SmartCash Address is None"
+msgstr "Chưa có địa chỉ SmartCash"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Adresses Bitcoin où vous devrez faire vos paiements. Notez que vous devriez utiliser une nouvelle adresse pour chaque transaction."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
+msgstr "Adresses SmartCash où vous devrez faire vos paiements. Notez que vous devriez utiliser une nouvelle adresse pour chaque transaction."
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Les giao dịch Bitcoin ne sont généralement pas gratuites. L'expéditeur paye des frais de ธุรกรรม aux mineurs."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Les giao dịch SmartCash ne sont généralement pas gratuites. L'expéditeur paye des frais de ธุรกรรม aux mineurs."
 
 #: gui/qt/network_dialog.py:288
 msgid "Blockchain"
@@ -609,8 +609,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum không thể xuất giao dịch."
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
-msgstr "Tầm nhìn của Electrum là tốc độ nhanh, sử dụng ít tài nguyên và đơn giản hoá Bitcoin. Bạn không cần phải thực hiện sao lưu thường xuyên, bởi vì ví của bạn có thể được khôi phục chỉ từ một dãy từ khoá mà bạn có thể nhớ hoặc ghi lên giấy. Thời gian khởi động của ứng dụng khá là nhanh, sở dĩ Electrum hoạt động với các máy chủ tốc độ cao bên ngoài có nhiệm vụ xử lý những thủ tục phức tạp nhất của hệ thống Bitcoin.\n\n"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
+msgstr "Tầm nhìn của Electrum là tốc độ nhanh, sử dụng ít tài nguyên và đơn giản hoá SmartCash. Bạn không cần phải thực hiện sao lưu thường xuyên, bởi vì ví của bạn có thể được khôi phục chỉ từ một dãy từ khoá mà bạn có thể nhớ hoặc ghi lên giấy. Thời gian khởi động của ứng dụng khá là nhanh, sở dĩ Electrum hoạt động với các máy chủ tốc độ cao bên ngoài có nhiệm vụ xử lý những thủ tục phức tạp nhất của hệ thống SmartCash.\n\n"
 
 #: gui/qt/main_window.py:2003
 msgid "Encrypt"
@@ -718,8 +718,8 @@ msgid "Expired"
 msgstr "Đã hết hạn"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Các yêu cầu đã hết hạn cần được xoá một cách thủ công khỏi danh sách của bạn, nhằm giải phóng các địa chỉ Bitcoin tương ứng."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
+msgstr "Các yêu cầu đã hết hạn cần được xoá một cách thủ công khỏi danh sách của bạn, nhằm giải phóng các địa chỉ SmartCash tương ứng."
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
 msgid "Expires"
@@ -932,8 +932,8 @@ msgid "Invalid Amount"
 msgstr "Số tiền không hợp lệ"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
-msgstr "Địa chỉ Bitcoin không hợp lệ."
+msgid "Invalid SmartCash Address"
+msgstr "Địa chỉ SmartCash không hợp lệ."
 
 #: gui/qt/main_window.py:1286
 msgid "Invalid Lines found:"
@@ -988,7 +988,7 @@ msgid "Lookup transaction"
 msgstr ""
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
 msgstr ""
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
@@ -1257,7 +1257,7 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr ""
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
 msgstr ""
 
 #: gui/qt/installwizard.py:348
@@ -1740,7 +1740,7 @@ msgid "This may result in higher transactions fees."
 msgstr ""
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend SmartCashs with it."
 msgstr ""
 
 #: gui/qt/main_window.py:861
@@ -1968,7 +1968,7 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr ""
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
 msgstr ""
 
 #: gui/qt/main_window.py:1608

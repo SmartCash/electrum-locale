@@ -276,16 +276,16 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "Avant de signaler une erreur, veuillez effectuer une mise à niveau vers la version la plus récente d'Electrum (dernière version ou via git HEAD), et inclure le numéro de version dans votre rapport."
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
-msgstr "Aucune adresse Bitcoin"
+msgid "SmartCash Address is None"
+msgstr "Aucune adresse SmartCash"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Adresses Bitcoin où vous devrez faire vos paiements. Notez que vous devriez utiliser une nouvelle adresse pour chaque transaction."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
+msgstr "Adresses SmartCash où vous devrez faire vos paiements. Notez que vous devriez utiliser une nouvelle adresse pour chaque transaction."
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Les transactions Bitcoin ne sont généralement pas gratuites. L'expéditeur paye des frais de transaction aux mineurs."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Les transactions SmartCash ne sont généralement pas gratuites. L'expéditeur paye des frais de transaction aux mineurs."
 
 #: gui/qt/network_dialog.py:288
 msgid "Blockchain"
@@ -609,8 +609,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum n'a pas pu générer une exportation de la transaction."
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
-msgstr "L'objectif d'Electrum est la vitesse, avec une faible utilisation des ressources et la simplification de Bitcoin. tu n'a pas besoins de fair des backups régulier. Parce que votre portefeuille peut être récupéré à partir d'une phrase secrète que vous pouvez mémoriser ou écrire sur papier. Les temps de démarrage sont instantanés car ils fonctionnent conjointement avec des serveurs performants qui utilisent les parties les plus compliquées du système Bitcoin"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
+msgstr "L'objectif d'Electrum est la vitesse, avec une faible utilisation des ressources et la simplification de SmartCash. tu n'a pas besoins de fair des backups régulier. Parce que votre portefeuille peut être récupéré à partir d'une phrase secrète que vous pouvez mémoriser ou écrire sur papier. Les temps de démarrage sont instantanés car ils fonctionnent conjointement avec des serveurs performants qui utilisent les parties les plus compliquées du système SmartCash"
 
 #: gui/qt/main_window.py:2003
 msgid "Encrypt"
@@ -718,8 +718,8 @@ msgid "Expired"
 msgstr "Expiré"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Les demandes périmées doivent être supprimées manuellement dans votre liste, afin de libérer les adresses Bitcoin correspondantes."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
+msgstr "Les demandes périmées doivent être supprimées manuellement dans votre liste, afin de libérer les adresses SmartCash correspondantes."
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
 msgid "Expires"
@@ -932,8 +932,8 @@ msgid "Invalid Amount"
 msgstr "Montant invalide"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
-msgstr "Adresse Bitcoin invalide"
+msgid "Invalid SmartCash Address"
+msgstr "Adresse SmartCash invalide"
 
 #: gui/qt/main_window.py:1286
 msgid "Invalid Lines found:"
@@ -961,7 +961,7 @@ msgstr "Factures"
 
 #: gui/qt/main_window.py:1026
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
-msgstr "Raccourci clavier: entrez \"!\" pour envoyer tous vos Bitcoins."
+msgstr "Raccourci clavier: entrez \"!\" pour envoyer tous vos SmartCashs."
 
 #: plugins/labels/qt.py:30
 msgid "Label Settings"
@@ -988,8 +988,8 @@ msgid "Lookup transaction"
 msgstr "Rechercher une transaction"
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Assurez-vous que vous possédez la graine ou les clés privées, avant de demander que des Bitcoins soit envoyés à ce portefeuille."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
+msgstr "Assurez-vous que vous possédez la graine ou les clés privées, avant de demander que des SmartCashs soit envoyés à ce portefeuille."
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
 #: gui/kivy/uix/dialogs/installwizard.py:693
@@ -1257,8 +1257,8 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "Veuillez saisir une phrase de graine ou une clé maître (xpub ou xprv) :"
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
-msgstr "Veuillez entrer une graine, une clé publique maîtresse, une liste d’adresses Bitcoin, ou une liste de clés privées"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
+msgstr "Veuillez entrer une graine, une clé publique maîtresse, une liste d’adresses SmartCash, ou une liste de clés privées"
 
 #: gui/qt/installwizard.py:348
 msgid "Please enter the master public key (xpub) of your cosigner."
@@ -1742,7 +1742,7 @@ msgid "This may result in higher transactions fees."
 msgstr "Cela peut entraîner des frais de transaction plus élevés."
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend SmartCashs with it."
 msgstr ""
 
 #: gui/qt/main_window.py:861
@@ -1972,8 +1972,8 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr ""
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Vous pouvez saisir une adresse Bitcoin, un libellé de votre liste de contacts (une liste de complétion vous sera proposée), ou un alias (adresse courriel qui sera renvoyée à une adresse Bitcoin)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
+msgstr "Vous pouvez saisir une adresse SmartCash, un libellé de votre liste de contacts (une liste de complétion vous sera proposée), ou un alias (adresse courriel qui sera renvoyée à une adresse SmartCash)"
 
 #: gui/qt/main_window.py:1608
 msgid "You may load a CSV file using the file icon."

@@ -276,16 +276,16 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "Перед повідомленням про помилку, оновіться до останньої версії Electrum (останній реліз чи git HEAD). Також додайте номер версії у звіті."
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
-msgstr "Bitcoin-адреса не визначена"
+msgid "SmartCash Address is None"
+msgstr "SmartCash-адреса не визначена"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Адреса Bitcoin, на який повинен бути отриманий платіж. Зверніть увагу, що кожен запит платежу використовує іншу Bitcoin адресу."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
+msgstr "Адреса SmartCash, на який повинен бути отриманий платіж. Зверніть увагу, що кожен запит платежу використовує іншу SmartCash адресу."
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Транзакції Bitcoin зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Транзакції SmartCash зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
 
 #: gui/qt/network_dialog.py:288
 msgid "Blockchain"
@@ -609,8 +609,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum не вдалося експортувати транзакцію."
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
-msgstr "Мета Electrum - швидкість, використання малої кількості ресурсів та спрощення Bitcoin. Вам не потрібно створювати регулярні архіви тому що Ваш гаманець можна відновити з секретної фрази, яку можна запам'ятати або записати на папері. Запуск миттєвий, оскільки він працює у поєднанні з високопродуктивними серверами, які обробляють найбільш складні частини системи Bitcoin.\n\n"
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
+msgstr "Мета Electrum - швидкість, використання малої кількості ресурсів та спрощення SmartCash. Вам не потрібно створювати регулярні архіви тому що Ваш гаманець можна відновити з секретної фрази, яку можна запам'ятати або записати на папері. Запуск миттєвий, оскільки він працює у поєднанні з високопродуктивними серверами, які обробляють найбільш складні частини системи SmartCash.\n\n"
 
 #: gui/qt/main_window.py:2003
 msgid "Encrypt"
@@ -718,8 +718,8 @@ msgid "Expired"
 msgstr "Термін дії закінчився"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Минулі запити повинні бути видалені вручну з вашого списку, щоб звільнити відповідні адреси Bitcoin."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
+msgstr "Минулі запити повинні бути видалені вручну з вашого списку, щоб звільнити відповідні адреси SmartCash."
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
 msgid "Expires"
@@ -932,8 +932,8 @@ msgid "Invalid Amount"
 msgstr "Невірна сума"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
-msgstr "Невірна адреса Bitcoin"
+msgid "Invalid SmartCash Address"
+msgstr "Невірна адреса SmartCash"
 
 #: gui/qt/main_window.py:1286
 msgid "Invalid Lines found:"
@@ -945,7 +945,7 @@ msgstr "Неправильний PIN-код"
 
 #: gui/qt/main_window.py:1513
 msgid "Invalid bitcoin URI:"
-msgstr "Невірний Bitcoin URI:"
+msgstr "Невірний SmartCash URI:"
 
 #: gui/qt/main_window.py:1652
 msgid "Invoice"
@@ -988,8 +988,8 @@ msgid "Lookup transaction"
 msgstr "Пошук транзакції"
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати Bitcoin для відправлення в цей гаманець."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
+msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати SmartCash для відправлення в цей гаманець."
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
 #: gui/kivy/uix/dialogs/installwizard.py:693
@@ -1257,8 +1257,8 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "Будь ласка, введіть кодову фразу чи майстер-ключ (xpub або xprv):"
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
-msgstr "Будь ласка, введіть кодову фразу, майстер-ключ, список Bitcoin-адрес або список приватних ключів"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
+msgstr "Будь ласка, введіть кодову фразу, майстер-ключ, список SmartCash-адрес або список приватних ключів"
 
 #: gui/qt/installwizard.py:348
 msgid "Please enter the master public key (xpub) of your cosigner."
@@ -1668,7 +1668,7 @@ msgstr "Сума буде відображатися червоним кольо
 
 #: gui/qt/main_window.py:780
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Термін дії адреси Bitcoin ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
+msgstr "Термін дії адреси SmartCash ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
 
 #: gui/qt/main_window.py:1009
 msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
@@ -1742,8 +1742,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Це може привести до збільшення комісії за транзакції."
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Це означає, що ви не зможете провести Bitcoins з цим."
+msgid "This means you will not be able to spend SmartCashs with it."
+msgstr "Це означає, що ви не зможете провести SmartCashs з цим."
 
 #: gui/qt/main_window.py:861
 msgid "This payment request will be signed."
@@ -1973,8 +1973,8 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr "Ви використовуєте недетермінований гаманець, для нього не можна створювати нові адреси."
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Ви можете вказати Bitcoin-адреса, мітку з вашої адресної книги (буде показаний список з автодоповненням) або псевдонім (адреси, схожі на e-mail, пов'язану з адресою Bitcoin)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
+msgstr "Ви можете вказати SmartCash-адреса, мітку з вашої адресної книги (буде показаний список з автодоповненням) або псевдонім (адреси, схожі на e-mail, пов'язану з адресою SmartCash)"
 
 #: gui/qt/main_window.py:1608
 msgid "You may load a CSV file using the file icon."

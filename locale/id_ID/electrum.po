@@ -276,16 +276,16 @@ msgid "Before reporting a bug, upgrade to the most recent version of Electrum (l
 msgstr "Sebelum melaporkan sebuah kutu, harap tingkatkan Electrum ke versi yang terbaru (rilis terbaru atau git HEAD), dan masukan nomor versi dalam laporan Anda."
 
 #: gui/qt/main_window.py:1303
-msgid "Bitcoin Address is None"
-msgstr "Alamat Bitcoin kosong"
+msgid "SmartCash Address is None"
+msgstr "Alamat SmartCash kosong"
 
 #: gui/qt/main_window.py:749
-msgid "Bitcoin address where the payment should be received. Note that each payment request uses a different Bitcoin address."
-msgstr "Alamat Bitcoin adalah dimana pembayaran akan diterima. Harap diperhatikan bahwa setiap pembayaran menggunakan alamat Bitcoin yang berbeda."
+msgid "SmartCash address where the payment should be received. Note that each payment request uses a different SmartCash address."
+msgstr "Alamat SmartCash adalah dimana pembayaran akan diterima. Harap diperhatikan bahwa setiap pembayaran menggunakan alamat SmartCash yang berbeda."
 
 #: gui/qt/main_window.py:1045
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Transaksi Bitcoin secara umum tidaklah gratis. Biaya transaksi dibayarkan oleh pengirim."
+msgid "SmartCash transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Transaksi SmartCash secara umum tidaklah gratis. Biaya transaksi dibayarkan oleh pengirim."
 
 #: gui/qt/network_dialog.py:288
 msgid "Blockchain"
@@ -609,8 +609,8 @@ msgid "Electrum was unable to produce a transaction export."
 msgstr "Electrum tidak dapat menghasilkan ekspor transaksi."
 
 #: gui/qt/main_window.py:532
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system.\n\n"
-msgstr "Electrum berfokus pada kecepatan, dengan penggunaan sumber daya yang rendah dan menyederhanakan Bitcoin. Anda tidak perlu melakukan backup secara berkala, karena dompet anda dapat dipulihkan dari kata-kata rahasia yang dapat anda ingat atau ditulis di sebuah kertas. Waktu untuk memulai Electrum sangat cepat karena pengoperasiannya dibantu oleh server berperforma tinggi yang menangani bagian-bagian yang kompleks pada sistim Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying SmartCash. You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper. Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the SmartCash system.\n\n"
+msgstr "Electrum berfokus pada kecepatan, dengan penggunaan sumber daya yang rendah dan menyederhanakan SmartCash. Anda tidak perlu melakukan backup secara berkala, karena dompet anda dapat dipulihkan dari kata-kata rahasia yang dapat anda ingat atau ditulis di sebuah kertas. Waktu untuk memulai Electrum sangat cepat karena pengoperasiannya dibantu oleh server berperforma tinggi yang menangani bagian-bagian yang kompleks pada sistim SmartCash."
 
 #: gui/qt/main_window.py:2003
 msgid "Encrypt"
@@ -718,8 +718,8 @@ msgid "Expired"
 msgstr "Sudah kedaluwarsa"
 
 #: gui/qt/main_window.py:779
-msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding Bitcoin addresses."
-msgstr "Permintaan yang sudah kadaluarsa harus dihapus secara manual dari daftar, agar teratur & menjadi ringkas sesuai dengan alamat Bitcoin."
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding SmartCash addresses."
+msgstr "Permintaan yang sudah kadaluarsa harus dihapus secara manual dari daftar, agar teratur & menjadi ringkas sesuai dengan alamat SmartCash."
 
 #: gui/qt/main_window.py:1666 gui/qt/invoice_list.py:36
 msgid "Expires"
@@ -932,8 +932,8 @@ msgid "Invalid Amount"
 msgstr "Jumlah Salah"
 
 #: gui/qt/main_window.py:1306
-msgid "Invalid Bitcoin Address"
-msgstr "Alamat Bitcoin Salah"
+msgid "Invalid SmartCash Address"
+msgstr "Alamat SmartCash Salah"
 
 #: gui/qt/main_window.py:1286
 msgid "Invalid Lines found:"
@@ -988,8 +988,8 @@ msgid "Lookup transaction"
 msgstr "Cari transaksi"
 
 #: gui/qt/main_window.py:376
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Pastikan anda memiliki frase biji atau kunci pribadi, sebelum Anda meminta Bitcoins untuk dikirim ke alamat ini."
+msgid "Make sure you own the seed phrase or the private keys, before you request SmartCashs to be sent to this wallet."
+msgstr "Pastikan anda memiliki frase biji atau kunci pribadi, sebelum Anda meminta SmartCashs untuk dikirim ke alamat ini."
 
 #: gui/qt/installwizard.py:481 gui/kivy/uix/dialogs/installwizard.py:689
 #: gui/kivy/uix/dialogs/installwizard.py:693
@@ -1257,8 +1257,8 @@ msgid "Please enter a seed phrase or a master key (xpub or xprv):"
 msgstr "Tolong masukkan kata sandi seed atau master key (xpub or xprv):"
 
 #: gui/qt/installwizard.py:24
-msgid "Please enter a seed phrase, a master key, a list of Bitcoin addresses, or a list of private keys"
-msgstr "Silahkan masukan sebuah benih dompet wallet, sebuah kunci publik master, sebuah daftar alamat-alamat Bitcoin, atau sebuah daftar kunci-kunci privat"
+msgid "Please enter a seed phrase, a master key, a list of SmartCash addresses, or a list of private keys"
+msgstr "Silahkan masukan sebuah benih dompet wallet, sebuah kunci publik master, sebuah daftar alamat-alamat SmartCash, atau sebuah daftar kunci-kunci privat"
 
 #: gui/qt/installwizard.py:348
 msgid "Please enter the master public key (xpub) of your cosigner."
@@ -1742,8 +1742,8 @@ msgid "This may result in higher transactions fees."
 msgstr "Hal ini dapat mengakibatkan biaya transaksi yang lebih tinggi."
 
 #: gui/qt/main_window.py:375
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Ini artinya Anda tidak akan dapat menghabiskan Bitcoins dengan itu."
+msgid "This means you will not be able to spend SmartCashs with it."
+msgstr "Ini artinya Anda tidak akan dapat menghabiskan SmartCashs dengan itu."
 
 #: gui/qt/main_window.py:861
 msgid "This payment request will be signed."
@@ -1759,7 +1759,7 @@ msgstr "Transaksi ini belum disimpan. Tutup?"
 
 #: gui/qt/main_window.py:1345
 msgid "This transaction requires a higher fee, or it will not be propagated by the network"
-msgstr "Transaksi ini membutuhkan biaya kirim lebih banyak, atau transaksi ini tidak akan tersebar di jaringan Bitcoin"
+msgstr "Transaksi ini membutuhkan biaya kirim lebih banyak, atau transaksi ini tidak akan tersebar di jaringan SmartCash"
 
 #: gui/qt/main_window.py:1838
 msgid "This wallet has no seed"
@@ -1972,8 +1972,8 @@ msgid "You are using a non-deterministic wallet, which cannot create new address
 msgstr "Anda menggunakan dompet non-deterministik, yang tidak dapat membuat alamat baru."
 
 #: gui/qt/main_window.py:998
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Anda dapat memasukan alamat Bitcoin, label dari daftar kontak (daftar penyelesaian akan diajukan), atau sebuah alias (alamat seperti E-mail yang meneruskan ke sebuah alamat Bitcoin)"
+msgid "You may enter a SmartCash address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a SmartCash address)"
+msgstr "Anda dapat memasukan alamat SmartCash, label dari daftar kontak (daftar penyelesaian akan diajukan), atau sebuah alias (alamat seperti E-mail yang meneruskan ke sebuah alamat SmartCash)"
 
 #: gui/qt/main_window.py:1608
 msgid "You may load a CSV file using the file icon."
@@ -1985,7 +1985,7 @@ msgstr "Akun anda telah dipindahkan ke"
 
 #: gui/qt/password_dialog.py:175
 msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr "Bitcoins Anda dilindungi oleh passworld. Namun, file dompet Anda tidak di enkripsi."
+msgstr "SmartCashs Anda dilindungi oleh passworld. Namun, file dompet Anda tidak di enkripsi."
 
 #: plugins/labels/qt.py:53
 msgid "Your labels have been synchronised."
